@@ -39,7 +39,7 @@ body{
 }
 
 .in:hover{
-    color:#242F9B;
+    color:#000425;
     padding: 0px 50px;
 }
 
@@ -81,7 +81,82 @@ button:hover{
     background-color: #010e85;
 }
 
+.stuff{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 26%;
+}
+
+.duration, .currency{
+    display: flex;
+    padding: 30px 140px;
+}
+
+
+.d, .c{
+    display: flex;
+    padding: 0px 10px;
+}
+
+
 /* For header text */
 .Header_text{
     text-align: center;
+}
+
+/* PRICING CARDS */
+
+#pricing-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* min-height: 100vh; */
+}
+    
+.price-box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.price-box{
+    width: 265px;
+    border-radius: 5px;
+    height: auto;
+    margin: 10px;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    /* border: 1px solid ;*/
+} 
+/*     
+stacking them */
+.plan-name{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.plan-name strong{
+    color: #090809;
+    font-size: 1.5rem;
+    margin: 5px 0px;
+
+}
+
+.plan-name span{
+    color: #090809;
+    font-size: 0.8rem;
+
 }

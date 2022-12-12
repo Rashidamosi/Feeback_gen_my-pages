@@ -3,8 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* background-color: #ffffff; */
-    /* color: #090809; */
+    background-color: #ffffff;
+    color: #090809;
 }
 
 li, a, button{
@@ -17,14 +17,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-   
 }
 
 body{
     font-family: 'poppins', 'sans-serif';
     /* font-weight: 500; */
     font-size: 16px;
-    
     
 }
 
@@ -51,11 +49,6 @@ body{
 
 header{
     padding-bottom: 100px;
-}
-
-/* I changed all anchors tags dark */
-a{
-    color: #090809;
 }
 
 .nav_links li{
@@ -261,33 +254,3 @@ FAQ SECTION */
 .pFAQ{
     padding: 20px;
 }
-
-/* FOOTER */
-
-footer {
-    width: 100%;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #242f9b;
-    color: #ffffff !important;
-  }
-
-  .footer{
-    color: #ffffff !important;
-  }
-
-
-
-  footer .last-div {
-    width: 1216px;
-    display: flex;
-    justify-content: space-around;
-  }
-  footer .bottom-icon {
-    width: 100px;
-  }
-  footer .column {
-    width: 160px;
-  }
